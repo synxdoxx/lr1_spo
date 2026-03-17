@@ -1,12 +1,9 @@
 import mysql.connector
 import logging
 import os
-import datetime
 import pandas as pd
-import json
 import csv
-import sqlite3
-from pathlib import Path
+
 
 logging.basicConfig(filename='pz.log', filemode='w', level=logging.INFO)
 
