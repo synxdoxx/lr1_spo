@@ -7,13 +7,6 @@ import csv
 
 logging.basicConfig(filename='pz.log', filemode='w', level=logging.INFO)
 
-db_config = {
-        'user': 'j30084097_13418',
-        'password': 'pPS090207/()',
-        'host': 'srv221-h-st.jino.ru',
-        'database': 'j30084097_13418'
-    }
-
 class SQLTable:
     def __init__(self, db_config, table_name):
         self.db_config = db_config
